@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="QR code reader">
+  <title>QR code reader</title>
+  <rect width="64" height="64" rx="14" fill="#1d4ed8"/>
+  <g fill="#ffffff">
+    <rect x="8" y="8" width="16" height="16" rx="1.5"/>
+    <rect x="40" y="8" width="16" height="16" rx="1.5"/>
+    <rect x="8" y="40" width="16" height="16" rx="1.5"/>
+  </g>
+  <g fill="#1d4ed8">
+    <rect x="11" y="11" width="10" height="10" rx="1"/>
+    <rect x="43" y="11" width="10" height="10" rx="1"/>
+    <rect x="11" y="43" width="10" height="10" rx="1"/>
+  </g>
+  <g fill="#ffffff">
+    <rect x="13" y="13" width="6" height="6" rx="1"/>
+    <rect x="45" y="13" width="6" height="6" rx="1"/>
+    <rect x="13" y="45" width="6" height="6" rx="1"/>
+    <rect x="40" y="40" width="6" height="6" rx="1"/>
+    <rect x="48" y="40" width="6" height="6" rx="1"/>
+    <rect x="40" y="48" width="6" height="6" rx="1"/>
+  </g>
+</svg>

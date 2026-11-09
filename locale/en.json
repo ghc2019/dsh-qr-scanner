@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "QR code reader",
+    "description": "Drop or paste an image to read its QR code and get the link."
+  }
+}

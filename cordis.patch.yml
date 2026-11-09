@@ -1,0 +1,3 @@
+- insert:
+    - id: qr-scanner
+      name: dsh-qr-scanner

@@ -1,0 +1,62 @@
+{
+  "name": "dsh-qr-scanner",
+  "version": "1.0.0",
+  "description": "Read QR codes from images and get the link they hold. 中文：识别图片里的二维码，取出链接。",
+  "type": "module",
+  "license": "MIT",
+  "author": "ghc2019",
+  "homepage": "https://github.com/ghc2019/dsh-qr-scanner#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ghc2019/dsh-qr-scanner.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ghc2019/dsh-qr-scanner/issues"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "qrcode",
+    "qr-code",
+    "barcode",
+    "scanner"
+  ],
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "lib/decode.js",
+    "vendor/**",
+    "assets/**",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg"
+  ],
+  "scripts": {
+    "test": "node test/smoke.mjs"
+  },
+  "devDependencies": {
+    "jpeg-js": "^0.4.4",
+    "qrcode": "^1.5.4",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-settings"
+      ]
+    }
+  }
+}
